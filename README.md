@@ -8,7 +8,7 @@ The objective of this project was to create a multiple linear regression model t
 
 # Business Understanding
 
-A rental company in King County, WA has acquired some houses in the area. They are looking to renovate some of the homes before renting them out, and would like to know which ones would be best to start with, and how they can increase the value of those homes. I am going to identify two features that have the most influence the value of homes in the area, and make recommendations on what the company should prioritize when remodeling their houses. I chose to investigate variables that would be more practical to alter in a home renovation- while factors such as being adjacent to a waterfront or greenbelt are likely to increase home value, it is not feasible to alter those characteristics for a house in a given location without major urban planning.
+A rental company in King County, WA has acquired some houses in the area. They are looking to renovate some of the homes before renting them out, and would like to know which ones would be best to start with, and how they can increase the value of those homes. I am going to identify two features that have the most influence the value of homes in the area, and make recommendations on what the company should prioritize when remodeling their houses. I chose to investigate variables that would be more practical to alter in a home renovation- while factors such as being adjacent to a waterfront or greenbelt are likely to increase home value, it is not feasable to alter those characteristics for a house in a given location without major urban planning.
 
 # Data
 
@@ -18,17 +18,17 @@ King County, WA  30,155 total. 28,120 records  Mean price was $940k  Median was 
 
 # Conclusions
 
-Considering the results of all models analyzed in this project, I consider the model with living room size, grade, and condition as the independent variables to be the best model. The r-squared value of 0.395, MAE of $244,000, and RMSE of $338,000 was hardly improved upon when more independent variables were added- even the last model, which additionally included independent variables that were moderately to highly correlated with each other, reduced error metrics by less than 0.5%. Thus, the model including living room size, grade, and condition most succinctly explains the variation in sale price.
+Considering the results of all models analyzed in this project, I consider the model with living room size, grade, and condition as the independent variables to be the best model. The r-squared value of 0.395, MAE of $244,000, and RMSE of $338,000 was hardly improved upon when more independent variables were added- even the last model, which additionally included independent variables that were moderately to highly correlated with each other, reduced error metrics by less than 0.5%. Thus, the model icluding living room size, grade, and condition most succinctly explains the variation in sale price.
 
-# Recommendations
+# Reccomendations
 
 Based on the results of the analysis, my recommendations for a rental company looking to renovate homes are to:
 
 Enlarge the living room. Living room size had the highest correlation with sale price, more so than even the size of the house. A spacious living room will likely enhance the value of the home and appeal to prospective renters by providing a sense of comfort and community.
 
-Use high quality materials and pay attention to design quality. For example, tile flooring in the bathrooms, good quality hardwood or bamboo in the interior, exterior, and flooring, and ceramic countertops can greatly add to the quality. In addition, a solid concrete foundation will ensure the house is sturdy, however, the use of concrete in building materials should be limited. The use of plastics should also be avoided.
+Use high quality materials and pay attention to design qualty. For example, tile flooring in the bathrooms, good quality hardwood or bamboo in the interior, exterior, and flooring, and ceramic countertops can greatly add to the quality. In addition, a solid concrete foundation will ensure the house is sturdy, however, the use of concrete in building materials should be limited. The use of plastics should also be avoided.
 
-Ensure any underlying issues or problems with the house structure or design are addressed. As demonstrated by the model, a house in good or great condition was valued significantly higher. Take care to ensure any renovations address any wear and tear and improve the overall condition of the house.
+Ensure any underlying issues or problems with the house structure or design are addressed. As demonstrated by the model, a house in good or great condition was valued significantly higher. Take care to ensure any rennovations address any wear and tear and improve the overall condition of the house.
 
 # Limitations and Next steps
 
