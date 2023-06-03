@@ -66,6 +66,6 @@ Repository Structure
 
 ├── README.md
 
-├── Presentation.pdf
+├── Housing_Prices_presentation.pdf
 
 └── Housing_Prices_analysis.ipynb
